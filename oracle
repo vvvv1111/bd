@@ -38,4 +38,4 @@ numbertub NUMBER primary key,
 description VARCHAR2(140), 
 price NUMBER 
 )
- Закрыть
+ 
