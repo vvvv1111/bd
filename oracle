@@ -1,0 +1,41 @@
+1. ElectricalBlock
+
+CREATE TABLE ElectricalBlock
+( 
+size VARCHAR2(50) primary key, 
+description VARCHAR2(140), 
+price NUMBER 
+) 
+
+2. Common Generator 
+
+CREATE TABLE CommonGenerator
+ 
+( 
+size VARCHAR2(50) primary key, 
+description VARCHAR2(140),  
+price NUMBER 
+) 
+
+3. gas turbine plant
+
+
+CREATE TABLE gasTurbinePlant
+
+( 
+name VARCHAR2(50) primary key, 
+description VARCHAR2(140), 
+price NUMBER 
+) 
+
+4. switchgear set
+
+
+CREATE TABLE switchgearSet
+ 
+( 
+numbertub NUMBER primary key, 
+description VARCHAR2(140), 
+price NUMBER 
+)
+ Закрыть
