@@ -1,0 +1,36 @@
+1. ElectricalBlock
+
+CREATE TABLE [dbo].[electricalBlock] 
+( 
+[SIZE] NVARCHAR(50) NOT NULL PRIMARY KEY IDENTITY, 
+[DESCRIPTION] NVARCHAR(140) NOT NULL, 
+[price] INT NOT NULL 
+) 
+
+2. Common Generator 
+
+CREATE TABLE [dbo].[commongenerator] 
+( 
+[SIZE] NVARCHAR(50) NOT NULL PRIMARY KEY IDENTITY, 
+[DESCRIPTION] NVARCHAR(140) NOT NULL, 
+[price] INT NOT NULL 
+) 
+
+3. gas turbine plant
+
+CREATE TABLE [dbo].[gasturbineplant] 
+( 
+[SIZE] NVARCHAR(50) NOT NULL PRIMARY KEY IDENTITY, 
+[DESCRIPTION] NVARCHAR(140) NOT NULL, 
+[price] INT NOT NULL 
+) 
+
+4. switchgear set
+
+CREATE TABLE [dbo].[switchgearыet] 
+( 
+[SIZE] NVARCHAR(50) NOT NULL PRIMARY KEY IDENTITY, 
+[DESCRIPTION] NVARCHAR(140) NOT NULL, 
+[price] INT NOT NULL 
+)
+ Закрыть
