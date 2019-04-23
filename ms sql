@@ -33,4 +33,4 @@ CREATE TABLE [dbo].[switchgearыet]
 [DESCRIPTION] NVARCHAR(140) NOT NULL, 
 [price] INT NOT NULL 
 )
- Закрыть
+ 
